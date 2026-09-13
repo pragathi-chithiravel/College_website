@@ -65,10 +65,7 @@ if(isset($_POST['insert'])){
             echo "Error updating values: ".$connect->error;
         }
 
-    }
-
-    // ID doesn't exist → INSERT
-    else{
+    }else{
 
         $sql = "INSERT INTO users 
                 (name,email,mobile,qualification,cgpa,courses)
