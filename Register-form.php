@@ -59,13 +59,6 @@ if(isset($_GET['id'])){
 
                     <span id="fnameError" style="color: red;"></span><br/>
 
-                    <label for="lname" class="form-label">LastName:</label>
-
-                    <input class="form-control" id="lname" name="lname" type="text"
-                     placeholder="Enter Last name"/>
-
-                    <span id="lnameError" style="color: red;"></span><br/>
-
                     <label for="mailid" class="form-label">Email:</label>
 
                     <input class="form-control" id="mailid" name="mailid" type="email"
