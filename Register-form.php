@@ -55,7 +55,7 @@ if(isset($_GET['id'])){
                     <label for="fname" class="form-label">Name:</label>
 
                     <input class="form-control" id="fname" name="fname" type="text"  
-                    placeholder="Enter First name" value="<?php echo $row['Name'] ?? ''; ?>"/>
+                    placeholder="Enter Name" value="<?php echo $row['Name'] ?? ''; ?>"/>
 
                     <span id="fnameError" style="color: red;"></span><br/>
 
