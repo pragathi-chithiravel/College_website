@@ -52,7 +52,7 @@ if(isset($_GET['id'])){
 
                     <input type='hidden' name="id" value="<?php echo $row['id']?? ''; ?>" />
                      
-                    <label for="fname" class="form-label">FirstName:</label>
+                    <label for="fname" class="form-label">Name:</label>
 
                     <input class="form-control" id="fname" name="fname" type="text"  
                     placeholder="Enter First name" value="<?php echo $row['Name'] ?? ''; ?>"/>
