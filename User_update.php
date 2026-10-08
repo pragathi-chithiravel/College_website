@@ -21,35 +21,6 @@ include 'header.php';
 include 'db.php';
 
 
-// if(isset($_POST['insert'])){
-    
-//     $id=$_POST['id'];
-//      echo "ID :".$id ."<br>" ;
-//     $Name = $_POST['fname']." ".$_POST['lname'];
-//     $Email = $_POST['mailid'];
-//     $Mobile = $_POST['mobile-no'];
-//     $Qualification = $_POST['qualification'];
-//     $CGPA = $_POST['CGPA'];
-//     $Courses = $_POST['courses']; 
-    
-
-//     $sql = "UPDATE users
-//             SET Name='$Name',
-//             Email='$Email',
-//             Mobile='$Mobile',
-//             Qualification='$Qualification',
-//             CGPA='$CGPA',
-//             Courses='$Courses'
-//             WHERE id='$id' ";
-    
-//     // if($connect->query($sql) === TRUE){
-//     //     echo "Update Sucessfully";
-//     // }else{
-//     //     echo "Error Updated values:".$connect->error;
-//     // }
-// }
-
-
 $sql = "SELECT * FROM users";
 
 $result = $connect->query($sql);

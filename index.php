@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
  
-    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/55fa51d470.js" crossorigin="anonymous"></script>
  
 </head>
@@ -23,10 +23,10 @@ require 'header.php';
     url(backgroundimg.jpg);background-size:cover;">
 
         <div>
-        <p class="text-warning text-nowrap fs-2 fs-md-4" style="text-shadow: 2px 2px 4px white;">
+        <p id="clg-name" class="text-warning text-nowrap" style="text-shadow: 2px 2px 4px white;">
             Meenakshi Chandrasekaran College of Arts & Science
         </p>
-        <p class="pt-1 text-danger text-center text-nowrap fs-4 fs-md-5 fw-bold" style="text-shadow: 2px 2px 5px white;">
+        <p id="clg-recognized" class="pt-1 text-danger text-center text-nowrap fw-bold" style="text-shadow: 2px 2px 5px white;">
             UGC Recognized 2(f) and 12(B), NAAC Accredited Institution
         </p>
         </div>
@@ -36,7 +36,7 @@ require 'header.php';
 
     <section>
         
-        <div id="slide" class="carousel col-12 col-sm-6 slide mx-auto py-5" data-bs-ride="carousel">
+        <div id="slide" class="carousel col-12 col-md-8 col-sm-10 slide mx-auto py-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <img src="aboutimg4.jpg" alt="college convocation" class="d-block w-100"/>
